@@ -1,0 +1,2 @@
+Dataset	Model	Parameters	Davies-Boulding	Silhouette-Score	NMI	ARI	Homogeneity	Completeness	ACC	Time	Memory
+Dengue.fas	iDeLUCS	{'n_clusters': 5, 'n_epochs': 35, 'n_mimics': 3, 'batch_sz': 512, 'k': 6, 'optimizer': 'RMSprop', 'scheduler': 'None', 'weight': 0.25, 'lambda': 2.8, 'lr': 0.001, 'n_voters': 5, 'model_size': 'linear', 'plot': False}	0.9804561423674482	0.5331601229442805	0.9430297308898663	0.9173904698942806	0.9999999999999999	0.8924567108110852	0.90263319044703	0.0:4.0:57.76376986503601	
